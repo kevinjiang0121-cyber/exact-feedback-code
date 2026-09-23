@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_crossed_cell_execution",
+  "cases": 240,
+  "planners": [
+    "llama31_8b",
+    "qwen3_14b",
+    "gemma2_9b",
+    "glm4_9b"
+  ],
+  "pairs": [
+    [
+      "llama31_8b",
+      "qwen3_14b"
+    ],
+    [
+      "llama31_8b",
+      "gemma2_9b"
+    ],
+    [
+      "llama31_8b",
+      "glm4_9b"
+    ]
+  ],
+  "inputs": {
+    "data\\human_generation_main120_v1\\generation_main120.jsonl": "bc36452c8a4d296d80e2cfd49c235a33517be93a0a32849fa576fe87235b0a05",
+    "data\\human_generation_replication120_v1\\generation_replication120.jsonl": "312d3b101613feb2a938c865b41612424c40cd0b5c4afd401ac4959496b8c4ae",
+    "experiments\\human_generation_main120_v1\\llama31_8b\\cases.jsonl": "48fef8086432d6495ab0e5b7b0fc12cd93d56122ea87405947aed5034a0d2390",
+    "experiments\\human_generation_replication120_v1\\llama31_8b\\cases.jsonl": "5d1ec2a19744b20721fb6417aacb6e4b8bcfbfd7dd28a63b9ed414229acac7f6",
+    "experiments\\human_generation_main120_v1\\qwen3_14b\\cases.jsonl": "6d6099067a6e461993c7b9cdcfca98471495f123ed1397aeca6fd0ae52e470ee",
+    "experiments\\human_generation_replication120_v1\\qwen3_14b\\cases.jsonl": "ca0d3f854836c39afedffe31b6556ab861f184b77fa9389a40fb3eb4fa4cbe7c",
+    "experiments\\human_generation_main120_v1\\gemma2_9b\\cases.jsonl": "fc4bf937f57863127aead56fc1a28d6b475536906b4a6cc11af97a364b3a80b0",
+    "experiments\\human_generation_replication120_v1\\gemma2_9b\\cases.jsonl": "5279e39bad5e8c2def8c9624d6576e7e868e5f115a6eb5abb46f41adcfecc6f1",
+    "experiments\\human_generation_main120_v1\\glm4_9b\\cases.jsonl": "a6fc9220d282b0d2ba1b7b64a22702964c0365dc0d5dd2524f1c7c66f707f28c",
+    "experiments\\human_generation_replication120_v1\\glm4_9b\\cases.jsonl": "14817416eea6efcd86d3f604c08c246f18a063a619492ea95bd41382e0297cc8"
+  },
+  "outputs": {
+    "generation_combined240.jsonl": "0c094dc69bd9f17b5522d84ebb906100b8f89da3d0b4a85412f69aef9ded6fe1",
+    "planner_drafts\\llama31_8b.jsonl": "db71157d64f9e4ae4f1d8bb0ffb27b7d5bf2e84e61119daf67d4770564c4f9e1",
+    "planner_drafts\\qwen3_14b.jsonl": "6f7adcdcf560f07aac815dc4878ce9af68f6e5c9cfc10784241afdc763e779a9",
+    "planner_drafts\\gemma2_9b.jsonl": "878596239b9b8a4df059c8dc5bb6e2a22fa876c196f05a13e2f815d8bd2a7b4b",
+    "planner_drafts\\glm4_9b.jsonl": "d5f97f2d3d6a62836d4bc1fdea33390373ae85e9597cb61dff44200edda29479"
+  }
+}

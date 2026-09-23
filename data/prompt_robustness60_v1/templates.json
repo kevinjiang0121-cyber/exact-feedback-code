@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "feedback": "DETERMINISTIC VERIFIER: previous response = {current} words; target = {target}; required action = {action}. Missing required content items: {missing}. Revise the complete response to satisfy the exact target and retain every required content item. Return only the revised response with no analysis, count, or commentary.",
+    "initial": "{instruction}\n\nLength constraint: write exactly {target} words under the deterministic word counter. The response must explicitly retain these required content items: {anchors}. Return only the requested response. Do not include a preface, word-count note, analysis, or commentary."
+  },
+  "concise": {
+    "feedback": "Verifier result: the response has {current} words; the target is {target}. {action_cap}. Missing required content: {missing}. Revise the whole response to exactly {target} words while keeping every required item. Output only the revision, without analysis, a count, or commentary.",
+    "initial": "{instruction}\n\nWrite exactly {target} words, as measured by the deterministic word counter. Include each of these required content items explicitly: {anchors}. Output the response only, without a preface, count, analysis, or commentary."
+  },
+  "structured": {
+    "feedback": "DETERMINISTIC_VERIFIER\nCURRENT_WORDS: {current}\nTARGET_WORDS: {target}\nREQUIRED_ACTION: {action}\nMISSING_REQUIRED_CONTENT: {missing}\nINSTRUCTION: Revise the complete response to hit TARGET_WORDS exactly and retain every required content item. Return only the revised response; no analysis, count, or commentary.",
+    "initial": "TASK\n{instruction}\n\nCONSTRAINTS\nTARGET_WORDS: {target}\nREQUIRED_CONTENT: {anchors}\nCOUNTING: deterministic word counter\nOUTPUT: only the requested response; no preface, word-count note, analysis, or commentary."
+  }
+}

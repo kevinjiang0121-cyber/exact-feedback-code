@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+config.local.json
+__pycache__/
+*.pyc
+runs/
+analysis/
+experiments/
+resources/
+models/
+.venv/
+*.zip

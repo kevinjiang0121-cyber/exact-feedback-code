@@ -1,0 +1,5 @@
+{
+  "common_plain_chat_template_v1.jinja": "966711fb2b3947b82178a18548f923d93441a9ee1221acd4d497aef0e5dbdb77",
+  "llama_meta_chat_template.jinja": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65",
+  "qwen3_base_response_chat_template.jinja": "87a2728cb8dc9fe424d624542f6060ec05a1d285ebbec578bb078900e33396b5"
+}

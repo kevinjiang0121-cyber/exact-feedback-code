@@ -1,0 +1,7 @@
+{"case_id": "no_robots_train_generation__73fe32ed3b8158b2639f1400", "current_word_count": 54, "reason": "target_below_10", "signed_error": 50, "target": 4}
+{"case_id": "no_robots_train_generation__77e77e2e97462c9eacee85c6", "current_word_count": 53, "reason": "target_below_10", "signed_error": 50, "target": 3}
+{"case_id": "no_robots_train_generation__ffa9931363894804aa44b7a6", "current_word_count": 36, "reason": "target_below_10", "signed_error": 50, "target": -14}
+{"case_id": "oasst1_train_root_text__b4a255ceab247d6ef300e7fe", "current_word_count": 58, "reason": "target_below_10", "signed_error": 50, "target": 8}
+{"case_id": "oasst1_train_root_text__edb86556153fb1c24f2f7ce5", "current_word_count": 49, "reason": "target_below_10", "signed_error": 50, "target": -1}
+{"case_id": "oasst1_validation_root_text__8525b026cadb4938009d3bbf", "current_word_count": 53, "reason": "target_below_10", "signed_error": 50, "target": 3}
+{"case_id": "oasst1_validation_root_text__d009652c7fb91655151dbcd1", "current_word_count": 41, "reason": "target_below_10", "signed_error": 50, "target": -9}

@@ -1,0 +1,73 @@
+{
+  "resources_sha256": "f7b0c91ec3648a892c1a75a93b59aa2b8be0d3221997bd98665d2840fa90885c",
+  "files": [
+    {
+      "path": "resources.json",
+      "bytes": 457370,
+      "sha256": "f7b0c91ec3648a892c1a75a93b59aa2b8be0d3221997bd98665d2840fa90885c"
+    },
+    {
+      "path": "en/default.zip",
+      "bytes": 524679637,
+      "sha256": "4c79342d91ff9ac585289b5b1ac152770ed82957c5bbd7a99d7bfb9f6859483a"
+    },
+    {
+      "path": "en/sentiment/sstplus_charlm.pt",
+      "bytes": 80440039,
+      "sha256": "bbba1ea9eec2d4411596440f4eb00ad183440c25d1cba8b85fd60f835cea0cde"
+    },
+    {
+      "path": "en/forward_charlm/1billion.pt",
+      "bytes": 22743428,
+      "sha256": "8a32ac2226dda8ea5d30f2a15fe3f835639977f299cfda315ce1b8a656596fd2"
+    },
+    {
+      "path": "en/ner/ontonotes-ww-multi_charlm.pt",
+      "bytes": 65726470,
+      "sha256": "d9099d2a9f0133fa8f41a0662b22cf0f0524a43c9972c10ffdadfed06b2c1848"
+    },
+    {
+      "path": "en/tokenize/combined_nocharlm.pt",
+      "bytes": 660757,
+      "sha256": "0b67d0cc24bf9461176d854ca891706616a6eea3a7f698ccf085fcf559fa87ec"
+    },
+    {
+      "path": "en/pretrain/conll17.pt",
+      "bytes": 106701210,
+      "sha256": "edde4c195f91ba45aab3f3a6254202011f284559da8a5ead5e62ce522f819c5e"
+    },
+    {
+      "path": "en/lemma/combined_nocharlm.pt",
+      "bytes": 2465184,
+      "sha256": "775d42962ae209d4ff2fc3a799a9438333a44aa6ede3a7368dc07afd573d79d3"
+    },
+    {
+      "path": "en/backward_charlm/1billion.pt",
+      "bytes": 22743430,
+      "sha256": "5d8cb2306650e4fc2b4f7517cc0fb33b38269e05bbf8d05e712e481471052225"
+    },
+    {
+      "path": "en/constituency/ptb3-revised_charlm.pt",
+      "bytes": 112234113,
+      "sha256": "cc4d58fcf629bbdf182de1d8567640506f160f9c0ccfbb1cfc3d3b12dc14ecce"
+    },
+    {
+      "path": "en/mwt/combined.pt",
+      "bytes": 509238,
+      "sha256": "5f7579111def1f6212c98fa8154ff964bf0eafb9218845ecfa3a1d5a931be237"
+    },
+    {
+      "path": "en/pos/combined_charlm.pt",
+      "bytes": 38649906,
+      "sha256": "e9952f2e2943a583cb7af7150140ec66197bbe046b671fe020324b0f877190eb"
+    },
+    {
+      "path": "en/depparse/combined_charlm.pt",
+      "bytes": 142301116,
+      "sha256": "862b1edda8fc9c371164650d4fbeb222f27b8da86ebfce696a87d478ea036fae"
+    }
+  ],
+  "nli_repo_id": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "nli_revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+  "stanza_version": "1.14.0"
+}

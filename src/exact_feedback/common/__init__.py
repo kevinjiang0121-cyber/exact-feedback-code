@@ -1,0 +1,1 @@
+"""Frozen shared protocol semantics."""

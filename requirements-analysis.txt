@@ -1,0 +1,7 @@
+# Frozen analysis runtime observed on the original analysis host.
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+pandas==2.3.3
+nltk==3.9.2
+dill==0.4.1

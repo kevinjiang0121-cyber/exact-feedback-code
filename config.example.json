@@ -1,0 +1,154 @@
+{
+  "python": "python",
+  "api_base_url": "https://openrouter.ai/api/v1",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "api_budget_usd": 1000,
+  "annotations": {
+    "stanza_resources_dir": "",
+    "nli_model_path": ""
+  },
+  "runtime": {
+    "dtype": "bfloat16"
+  },
+  "models": {
+    "llama31_8b": {
+      "path": "",
+      "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659"
+    },
+    "llama31_8b_base": {
+      "path": "",
+      "model_id": "meta-llama/Meta-Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b"
+    },
+    "gemma2_9b": {
+      "path": "",
+      "model_id": "google/gemma-2-9b-it",
+      "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819"
+    },
+    "glm4_9b": {
+      "path": "",
+      "model_id": "THUDM/GLM-4-9B-0414",
+      "revision": "645b8482494e31b6b752272bf7f7f273ef0f3caf"
+    },
+    "ministral_8b": {
+      "path": "",
+      "model_id": "mistralai/Ministral-8B-Instruct-2410",
+      "revision": "2f494a194c5b980dfb9772cb92d26cbb671fce5a"
+    },
+    "qwen3_1_7b": {
+      "path": "",
+      "model_id": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+    },
+    "qwen3_4b": {
+      "path": "",
+      "model_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+    },
+    "qwen3_8b": {
+      "path": "",
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "qwen3_8b_base": {
+      "path": "",
+      "model_id": "Qwen/Qwen3-8B-Base",
+      "revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4"
+    },
+    "qwen3_14b": {
+      "path": "",
+      "model_id": "Qwen/Qwen3-14B",
+      "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18"
+    },
+    "qwen3_32b": {
+      "path": "",
+      "model_id": "Qwen/Qwen3-32B",
+      "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+      "tensor_parallel_size": 2
+    },
+    "qwen3_30b_a3b": {
+      "path": "",
+      "model_id": "Qwen/Qwen3-30B-A3B",
+      "revision": "ad44e777bcd18fa416d9da3bd8f70d33ebb85d39"
+    },
+    "granite_3_3_8b": {
+      "path": "",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "revision": "51dd4bc2ade4059a6bd87649d68aa11e4fb2529b"
+    },
+    "falcon_h1_7b": {
+      "path": "",
+      "model_id": "tiiuae/Falcon-H1-7B-Instruct",
+      "revision": "41e72f27effbab80cd45b6e884688452253a3686"
+    },
+    "tulu3_8b_sft": {
+      "path": "",
+      "model_id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d"
+    },
+    "tulu3_8b_dpo": {
+      "path": "",
+      "model_id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db"
+    },
+    "tulu31_8b_rlvr": {
+      "path": "",
+      "model_id": "allenai/Llama-3.1-Tulu-3.1-8B",
+      "revision": "46239c2d07db76b412e1f1b0b4542f65b81fe01f"
+    },
+    "gemma2_9b_base": {
+      "path": "",
+      "model_id": "google/gemma-2-9b"
+    }
+  },
+  "api_models": {
+    "gpt5_6_sol_api": {
+      "id": "openai/gpt-5.6-sol",
+      "provider": "OpenAI",
+      "providers": [
+        "OpenAI"
+      ]
+    },
+    "claude_opus5_api": {
+      "id": "anthropic/claude-opus-5",
+      "provider": "Anthropic",
+      "providers": [
+        "Anthropic"
+      ]
+    },
+    "gemini_3_6_flash_api": {
+      "id": "google/gemini-3.6-flash",
+      "provider": "Google",
+      "providers": [
+        "Google"
+      ]
+    },
+    "glm5_2_api": {
+      "id": "z-ai/glm-5.2",
+      "provider": "Z.AI",
+      "providers": [
+        "Z.AI"
+      ]
+    },
+    "deepseek_v4_flash_api": {
+      "id": "deepseek/deepseek-v4-flash",
+      "provider": "DeepSeek",
+      "providers": [
+        "DeepSeek"
+      ]
+    },
+    "qwen3_7_plus_api": {
+      "id": "qwen/qwen3.7-plus",
+      "provider": "Alibaba",
+      "providers": [
+        "Alibaba"
+      ]
+    },
+    "llama31_70b_api": {
+      "id": "meta-llama/llama-3.1-70b-instruct",
+      "provider": "",
+      "providers": []
+    }
+  }
+}
