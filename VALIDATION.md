@@ -6,6 +6,10 @@ Recomputed frozen results include response discovery/confirmation and natural-tr
 
 All 27,359 common failure labels match the frozen classification. Round-budget analysis matches 513 cell rows and nine summaries. Annotation integrity is checked against the frozen Stanza/NLI records. The separate evidence release records the completed jobs; `experiment_index.json` maps 22 experimental evidence groups to files and commands.
 
+## Continuous integration scope
+
+The Python 3.12 GitHub Actions gate runs `python reproduce.py list` and `python -m unittest discover -s tests -v` with `requirements-analysis.txt` on a CPU runner. The tests exercise local command contracts and synthetic fixtures; a passing gate does not independently reproduce the 32 offline analysis jobs or validate the separately distributed evidence. Evidence checks and `analyze-evidence` require an externally supplied evidence directory and are excluded from CI. Generation, GPU/vLLM inference, paid API calls, annotation resource downloads and model inference are also outside this gate.
+
 ## Numerical limits
 
 Passing a job means that its analysis and integrity checks completed; it does not imply that every floating-point output is bitwise identical. Windows and Linux continuous ridge-probe results differ even with NumPy 2.2.6, SciPy 1.15.3 and scikit-learn 1.7.2 pinned. Reported final-layer classification estimates match. An auxiliary Gemma target probe can select a different regularization value; the estimator is preserved rather than forced to reproduce stored fitted values. Reanalysis on the original Linux host matched both Qwen/Gemma frozen probe reports on all common fields.
